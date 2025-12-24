@@ -3,8 +3,6 @@
 A serverless GraphQL client. GraphIt runs entirely in your browser.
 
 ## Features
-<img width="2555" height="1040" alt="image" src="https://github.com/user-attachments/assets/d30b21d5-f2fd-4beb-9c50-3d30ed37aaa7" />
-<img width="659" height="1220" alt="image" src="https://github.com/user-attachments/assets/20698c65-df8d-46b1-ace1-4e83d86a0eb7" />
 
 ### Core Functionality
 - **Multiple Workspaces** - Organize your GraphQL projects
@@ -49,6 +47,16 @@ A serverless GraphQL client. GraphIt runs entirely in your browser.
 - **Themes** - Light, dark, and system preference
 - **Languages** - English and Spanish (i18n)
 - **Editor Options** - Font size, tab size, minimap
+
+## Screenshots
+
+<p align="center">
+  <img width="2555" height="1040" alt="GraphIt main interface" src="https://github.com/user-attachments/assets/d30b21d5-f2fd-4beb-9c50-3d30ed37aaa7" />
+</p>
+
+<p align="center">
+  <img width="659" height="1220" alt="GraphIt docs explorer" src="https://github.com/user-attachments/assets/20698c65-df8d-46b1-ace1-4e83d86a0eb7" />
+</p>
 
 ## Getting Started
 
