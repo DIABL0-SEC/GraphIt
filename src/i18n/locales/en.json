@@ -1,0 +1,219 @@
+{
+  "app": {
+    "name": "GraphIt",
+    "description": "A serverless GraphQL client"
+  },
+  "sidebar": {
+    "workspaces": "Workspaces",
+    "collections": "Collections",
+    "history": "History",
+    "settings": "Settings",
+    "newWorkspace": "New Workspace",
+    "newCollection": "New Collection"
+  },
+  "workspace": {
+    "default": "Default Workspace",
+    "new": "New Workspace",
+    "rename": "Rename",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this workspace? This action cannot be undone.",
+    "endpoint": "Default Endpoint",
+    "headers": "Default Headers"
+  },
+  "tabs": {
+    "new": "New Query",
+    "duplicate": "Duplicate",
+    "rename": "Rename",
+    "close": "Close",
+    "closeOthers": "Close Others"
+  },
+  "editor": {
+    "query": "Query",
+    "variables": "Variables",
+    "headers": "Headers",
+    "auth": "Auth",
+    "preRequest": "Pre-request Script",
+    "postRequest": "Post-request Script",
+    "prettify": "Prettify",
+    "minify": "Minify",
+    "run": "Run",
+    "stop": "Stop"
+  },
+  "request": {
+    "send": "Send Request",
+    "cancel": "Cancel",
+    "method": "Method",
+    "endpoint": "Endpoint",
+    "useWorkspaceEndpoint": "Use workspace endpoint",
+    "proxyMode": "Use Proxy",
+    "selectOperation": "Select Operation"
+  },
+  "response": {
+    "body": "Body",
+    "headers": "Headers",
+    "stats": "Stats",
+    "clear": "Clear",
+    "download": "Download",
+    "copy": "Copy",
+    "noResponse": "No response yet. Send a request to see results.",
+    "status": "Status",
+    "duration": "Duration",
+    "size": "Size"
+  },
+  "docs": {
+    "title": "Documentation",
+    "search": "Search types, fields...",
+    "noSchema": "No schema loaded",
+    "loadSchema": "Load Schema",
+    "reloadSchema": "Reload Schema",
+    "clearCache": "Clear Cache",
+    "types": "Types",
+    "queries": "Queries",
+    "mutations": "Mutations",
+    "subscriptions": "Subscriptions",
+    "fields": "Fields",
+    "arguments": "Arguments",
+    "insert": "Insert",
+    "alphabetical": "Alphabetical",
+    "schemaOrder": "Schema Order"
+  },
+  "builder": {
+    "title": "Query Builder",
+    "operationType": "Operation Type",
+    "rootField": "Root Field",
+    "applyToEditor": "Apply to Editor",
+    "selectFields": "Select fields to include",
+    "noFields": "No fields available",
+    "arguments": "Arguments",
+    "variables": "Variables",
+    "includeVariable": "Include variable",
+    "useAsVariable": "Use as variable"
+  },
+  "environments": {
+    "title": "Environments",
+    "new": "New Environment",
+    "select": "Select Environment",
+    "noEnv": "No environment selected",
+    "variables": "Variables",
+    "addVariable": "Add Variable",
+    "name": "Name",
+    "value": "Value",
+    "secret": "Secret",
+    "local": "Local",
+    "staging": "Staging",
+    "production": "Production"
+  },
+  "collections": {
+    "title": "Collections",
+    "new": "New Collection",
+    "newFolder": "New Folder",
+    "save": "Save to Collection",
+    "import": "Import",
+    "export": "Export",
+    "delete": "Delete",
+    "empty": "No collections yet",
+    "searchPlaceholder": "Search collections..."
+  },
+  "history": {
+    "title": "History",
+    "clear": "Clear History",
+    "empty": "No history yet",
+    "restore": "Restore to new tab"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "editor": "Editor",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "language": "Language",
+    "fontSize": "Font Size",
+    "tabSize": "Tab Size",
+    "minimap": "Show Minimap",
+    "proxyMode": "Proxy Mode",
+    "proxyModeDesc": "Route requests through serverless proxy to avoid CORS issues",
+    "timeout": "Request Timeout (ms)",
+    "batching": "Enable Request Batching",
+    "scriptTimeout": "Script Timeout (ms)"
+  },
+  "auth": {
+    "title": "Authorization",
+    "none": "None",
+    "bearer": "Bearer Token",
+    "basic": "Basic Auth",
+    "apiKey": "API Key",
+    "token": "Token",
+    "username": "Username",
+    "password": "Password",
+    "key": "Key",
+    "value": "Value",
+    "addTo": "Add to",
+    "header": "Header",
+    "queryParam": "Query Parameter"
+  },
+  "subscription": {
+    "title": "Subscription",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "protocol": "Protocol",
+    "url": "Subscription URL",
+    "useEndpoint": "Use endpoint URL",
+    "ws": "WebSocket",
+    "sse": "Server-Sent Events",
+    "appsync": "AppSync",
+    "messages": "Messages",
+    "clear": "Clear",
+    "export": "Export Log",
+    "pause": "Pause",
+    "resume": "Resume",
+    "noMessages": "No messages yet"
+  },
+  "scripts": {
+    "console": "Script Console",
+    "clear": "Clear",
+    "preRequest": "Pre-request Script",
+    "postRequest": "Post-request Script",
+    "help": "Available APIs: env.get(), env.set(), vars.get(), vars.set(), headers.set(), log()"
+  },
+  "uploads": {
+    "title": "File Uploads",
+    "addFile": "Add File",
+    "variablePath": "Variable Path",
+    "selectFile": "Select File",
+    "noFiles": "No files attached"
+  },
+  "export": {
+    "title": "Export",
+    "includeSecrets": "Include secrets",
+    "includeSecretsWarning": "Warning: Secrets will be included in plain text",
+    "download": "Download"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "confirm": "Confirm",
+    "close": "Close",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "errors": {
+    "networkError": "Network error. Check your connection and CORS settings.",
+    "parseError": "Failed to parse response",
+    "schemaError": "Failed to load schema",
+    "scriptError": "Script execution error",
+    "timeout": "Request timed out",
+    "invalidEndpoint": "Invalid endpoint URL"
+  }
+}

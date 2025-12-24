@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Light theme: #F6F6F6, #FFE2E2, #FFC7C7, #AAAAAA */
+  :root {
+    --background: 0 0% 96%;
+    --foreground: 0 0% 20%;
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 20%;
+    --popover: 0 0% 98%;
+    --popover-foreground: 0 0% 20%;
+    --primary: 0 79% 59%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 100% 89%;
+    --secondary-foreground: 0 0% 20%;
+    --muted: 0 100% 95%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 0 100% 95%;
+    --accent-foreground: 0 0% 20%;
+    --destructive: 0 79% 59%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 0 79% 59%;
+    --radius: 0.5rem;
+  }
+
+  /* Dark theme: #2B2E4A, #E84545, #903749, #53354A */
+  .dark {
+    --background: 236 27% 23%;
+    --foreground: 0 0% 96%;
+    --card: 313 24% 27%;
+    --card-foreground: 0 0% 96%;
+    --popover: 313 24% 27%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 0 79% 59%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 346 44% 39%;
+    --secondary-foreground: 0 0% 96%;
+    --muted: 313 24% 27%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 346 44% 39%;
+    --accent-foreground: 0 0% 96%;
+    --destructive: 0 79% 59%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 313 24% 35%;
+    --input: 313 24% 35%;
+    --ring: 0 79% 59%;
+  }
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+}
+
+/* Utility class for themed background */
+.themed-bg {
+  background-color: hsl(var(--background));
+}
+
+.themed-panel {
+  background-color: hsl(var(--card));
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Monaco editor fixes */
+.monaco-editor .margin {
+  background: transparent !important;
+}
+
+/* Animations */
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+.animate-accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+
+.animate-accordion-up {
+  animation: accordion-up 0.2s ease-out;
+}

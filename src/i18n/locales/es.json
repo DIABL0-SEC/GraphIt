@@ -1,0 +1,219 @@
+{
+  "app": {
+    "name": "GraphIt",
+    "description": "Un cliente GraphQL sin servidor"
+  },
+  "sidebar": {
+    "workspaces": "Espacios de trabajo",
+    "collections": "Colecciones",
+    "history": "Historial",
+    "settings": "Configuración",
+    "newWorkspace": "Nuevo espacio",
+    "newCollection": "Nueva colección"
+  },
+  "workspace": {
+    "default": "Espacio predeterminado",
+    "new": "Nuevo espacio de trabajo",
+    "rename": "Renombrar",
+    "delete": "Eliminar",
+    "deleteConfirm": "¿Estás seguro de que deseas eliminar este espacio de trabajo? Esta acción no se puede deshacer.",
+    "endpoint": "Endpoint predeterminado",
+    "headers": "Headers predeterminados"
+  },
+  "tabs": {
+    "new": "Nueva consulta",
+    "duplicate": "Duplicar",
+    "rename": "Renombrar",
+    "close": "Cerrar",
+    "closeOthers": "Cerrar otros"
+  },
+  "editor": {
+    "query": "Consulta",
+    "variables": "Variables",
+    "headers": "Headers",
+    "auth": "Autenticación",
+    "preRequest": "Script pre-solicitud",
+    "postRequest": "Script post-solicitud",
+    "prettify": "Formatear",
+    "minify": "Minificar",
+    "run": "Ejecutar",
+    "stop": "Detener"
+  },
+  "request": {
+    "send": "Enviar solicitud",
+    "cancel": "Cancelar",
+    "method": "Método",
+    "endpoint": "Endpoint",
+    "useWorkspaceEndpoint": "Usar endpoint del espacio",
+    "proxyMode": "Usar Proxy",
+    "selectOperation": "Seleccionar operación"
+  },
+  "response": {
+    "body": "Cuerpo",
+    "headers": "Headers",
+    "stats": "Estadísticas",
+    "clear": "Limpiar",
+    "download": "Descargar",
+    "copy": "Copiar",
+    "noResponse": "Sin respuesta aún. Envía una solicitud para ver resultados.",
+    "status": "Estado",
+    "duration": "Duración",
+    "size": "Tamaño"
+  },
+  "docs": {
+    "title": "Documentación",
+    "search": "Buscar tipos, campos...",
+    "noSchema": "Sin esquema cargado",
+    "loadSchema": "Cargar esquema",
+    "reloadSchema": "Recargar esquema",
+    "clearCache": "Limpiar caché",
+    "types": "Tipos",
+    "queries": "Consultas",
+    "mutations": "Mutaciones",
+    "subscriptions": "Suscripciones",
+    "fields": "Campos",
+    "arguments": "Argumentos",
+    "insert": "Insertar",
+    "alphabetical": "Alfabético",
+    "schemaOrder": "Orden del esquema"
+  },
+  "builder": {
+    "title": "Constructor de consultas",
+    "operationType": "Tipo de operación",
+    "rootField": "Campo raíz",
+    "applyToEditor": "Aplicar al editor",
+    "selectFields": "Selecciona campos para incluir",
+    "noFields": "No hay campos disponibles",
+    "arguments": "Argumentos",
+    "variables": "Variables",
+    "includeVariable": "Incluir variable",
+    "useAsVariable": "Usar como variable"
+  },
+  "environments": {
+    "title": "Entornos",
+    "new": "Nuevo entorno",
+    "select": "Seleccionar entorno",
+    "noEnv": "Sin entorno seleccionado",
+    "variables": "Variables",
+    "addVariable": "Agregar variable",
+    "name": "Nombre",
+    "value": "Valor",
+    "secret": "Secreto",
+    "local": "Local",
+    "staging": "Staging",
+    "production": "Producción"
+  },
+  "collections": {
+    "title": "Colecciones",
+    "new": "Nueva colección",
+    "newFolder": "Nueva carpeta",
+    "save": "Guardar en colección",
+    "import": "Importar",
+    "export": "Exportar",
+    "delete": "Eliminar",
+    "empty": "Sin colecciones aún",
+    "searchPlaceholder": "Buscar colecciones..."
+  },
+  "history": {
+    "title": "Historial",
+    "clear": "Limpiar historial",
+    "empty": "Sin historial aún",
+    "restore": "Restaurar en nueva pestaña"
+  },
+  "settings": {
+    "title": "Configuración",
+    "general": "General",
+    "editor": "Editor",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "language": "Idioma",
+    "fontSize": "Tamaño de fuente",
+    "tabSize": "Tamaño de tabulación",
+    "minimap": "Mostrar minimapa",
+    "proxyMode": "Modo proxy",
+    "proxyModeDesc": "Enrutar solicitudes a través del proxy serverless para evitar problemas de CORS",
+    "timeout": "Tiempo de espera (ms)",
+    "batching": "Habilitar lotes de solicitudes",
+    "scriptTimeout": "Tiempo de espera de scripts (ms)"
+  },
+  "auth": {
+    "title": "Autorización",
+    "none": "Ninguna",
+    "bearer": "Token Bearer",
+    "basic": "Autenticación básica",
+    "apiKey": "Clave API",
+    "token": "Token",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "key": "Clave",
+    "value": "Valor",
+    "addTo": "Agregar a",
+    "header": "Header",
+    "queryParam": "Parámetro de consulta"
+  },
+  "subscription": {
+    "title": "Suscripción",
+    "connect": "Conectar",
+    "disconnect": "Desconectar",
+    "protocol": "Protocolo",
+    "url": "URL de suscripción",
+    "useEndpoint": "Usar URL del endpoint",
+    "ws": "WebSocket",
+    "sse": "Server-Sent Events",
+    "appsync": "AppSync",
+    "messages": "Mensajes",
+    "clear": "Limpiar",
+    "export": "Exportar registro",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "noMessages": "Sin mensajes aún"
+  },
+  "scripts": {
+    "console": "Consola de scripts",
+    "clear": "Limpiar",
+    "preRequest": "Script pre-solicitud",
+    "postRequest": "Script post-solicitud",
+    "help": "APIs disponibles: env.get(), env.set(), vars.get(), vars.set(), headers.set(), log()"
+  },
+  "uploads": {
+    "title": "Subida de archivos",
+    "addFile": "Agregar archivo",
+    "variablePath": "Ruta de variable",
+    "selectFile": "Seleccionar archivo",
+    "noFiles": "Sin archivos adjuntos"
+  },
+  "export": {
+    "title": "Exportar",
+    "includeSecrets": "Incluir secretos",
+    "includeSecretsWarning": "Advertencia: Los secretos se incluirán en texto plano",
+    "download": "Descargar"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Agregar",
+    "remove": "Eliminar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "enabled": "Habilitado",
+    "disabled": "Deshabilitado"
+  },
+  "errors": {
+    "networkError": "Error de red. Verifica tu conexión y configuración CORS.",
+    "parseError": "Error al analizar la respuesta",
+    "schemaError": "Error al cargar el esquema",
+    "scriptError": "Error de ejecución del script",
+    "timeout": "Tiempo de espera agotado",
+    "invalidEndpoint": "URL de endpoint inválida"
+  }
+}
